@@ -3,7 +3,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { AiFillPhone } from 'react-icons/ai'
 export const navData = [
     {
-        label: "HEIMA",
+        label: "Hauptseite",
         slug: "/"
     },
     {
