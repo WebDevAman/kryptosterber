@@ -5,8 +5,8 @@ import { serviceData } from '../../dummyData'
 const Services = () => {
     return (
         <div className='flex container flex-col space-y-6'>
-            <Title text={'Our Services'} />
-            <div className="text-center text-gray-100 max-w-[30rem] mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci reiciendis  mollitia inventore totam.</div>
+            <Title text={'Unsere Leistungen'} />
+            <div className="text-center text-gray-100 max-w-[30rem] mx-auto">Unsere exklusiven Services, die Ihnen helfen, Kryptowährungen zu meistern.</div>
             <div className="flex justify-center">
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {serviceData.map(({ imageUrl, heading, chips }) => (
@@ -17,7 +17,7 @@ const Services = () => {
                                 <div className="flex space-x-4">
                                     {chips.map(chip => (
                                         <div key={chip} className='py-1 bg-themeGold w-fit text-sm font-semibold rounded-full text-themeColor px-6'>
-                                            {chip}
+                                            {heading}
                                         </div>
                                     ))}
 

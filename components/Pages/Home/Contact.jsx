@@ -7,16 +7,16 @@ const Contact = () => {
         <div className='container !p-6 md:!p-12 border-themeDarkColor grid grid-cols-1 gap-6 lg:grid-cols-5 bg-themeColor shadow-md rounded-2xl '>
             <div className="col-span-1 flex flex-col space-y-6 justify-center lg:col-span-3">
                 <div className="flex flex-col space-y-2">
-                    <h1 className={`gradient-text pb-2 max-w-[40rem] text-2xl md:text-4xl font-lora font-bold`}>Having some question? Contact Us.</h1>
+                    <h1 className={`gradient-text pb-2 max-w-[40rem] text-2xl md:text-4xl font-lora font-bold`}>Haben Sie Fragen? Kontaktiere uns.</h1>
                     <div className="w-[8rem] h-1 bg-themeGold"></div>
                 </div>
-                <p className='text-gray-100 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus autem dolorum nisi assumenda voluptate eligendi aut, ea enim maiores placeat non sapiente ab magni ipsum repellat est aliquam officia quas.</p>
+                <p className='text-gray-100 max-w-[90%]'>Wenn Sie Fragen haben oder weitere Informationen zu unserem Service benötigen, können Sie uns gerne über unsere sozialen Medien oder per E-Mail / Telefonnummer kontaktieren.</p>
                 <div className="border border-themeGold flex items-center space-x-4 rounded-md shadow-md p-4 w-fit">
                     <div className="rounded-md shadow-md bg-themeDarkColor p-4 text-themeGold">
                         <HiOutlineMailOpen className='text-2xl' />
                     </div>
                     <div className="flex flex-col space-y-1">
-                        <h1 className='text-white font-semibold'>Mail me at</h1>
+                        <h1 className='text-white font-semibold'>Mailen Sie mir an</h1>
                         <a href='mailto:kryptostreber@hotmail.com' className='text-themeGold text-lg font-bold'>kryptostreber@hotmail.com</a>
                     </div>
                 </div>

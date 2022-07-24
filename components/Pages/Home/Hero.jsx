@@ -7,12 +7,12 @@ const Hero = () => {
             <div className="grid grid-cols-1 gap-12 lg:gap-0 container my-4 md:my-12 lg:grid-cols-2">
                 <div className="flex flex-col justify-center space-y-6">
                     <h1 className='font-lora pb-2 text-2xl md:text-5xl  gradient-text leading-relaxed font-bold text-white'>
-                        Learn to invest in cryptocurrency with Kryptosterber.
+                        Lernen Sie mit, in Kryptowährung zu investieren Kryptosterber.
                     </h1>
                     <div className='bg-themeGold h-1 w-24'></div>
-                    <p className='text-gray-50 max-w-[32rem]'>A cryptocurrency is a digital currency, which is an alternative form of payment created using encryption algorithms. The use of encryption technologies means that cryptocurrencies function both as a currency and as a virtual accounting system. To use cryptocurrencies, you need a cryptocurrency wallet.</p>
+                    <p className='text-gray-50 max-w-[32rem]'>Eine Kryptowährung ist eine digitale Währung, bei der es sich um eine alternative Zahlungsform handelt, die mithilfe von Verschlüsselungsalgorithmen erstellt wird. Durch den Einsatz von Verschlüsselungstechnologien fungieren Kryptowährungen sowohl als Währung als auch als virtuelles Abrechnungssystem. Um Kryptowährungen verwenden zu können, benötigen Sie eine Kryptowährungs-Wallet.</p>
                     <a href='#services' className="w-fit">
-                        <Button text='Explore now' />
+                        <Button text='JETZT ERKUNDEN' />
 
                     </a>
                 </div>

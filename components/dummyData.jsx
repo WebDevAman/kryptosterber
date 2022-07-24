@@ -1,21 +1,21 @@
-import { FaFacebookF, FaInstagram, FaPinterestP } from 'react-icons/fa'
+import { FaTiktok, FaInstagram, FaPinterestP } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { AiFillPhone } from 'react-icons/ai'
 export const navData = [
     {
-        label: "Home",
+        label: "HEIMA",
         slug: "/"
     },
     {
-        label: "Digital Transformation",
+        label: "Digitale Transformation",
         slug: "#digital-transformation"
     },
     {
-        label: "Services",
+        label: "Leistungen",
         slug: "#services"
     },
     {
-        label: "Contact Us",
+        label: "Kontaktiere Uns",
         slug: "#contact"
     },
 ]
@@ -26,10 +26,10 @@ export const slideData = [
 ]
 
 export const socialData = [
-    { link: '/', icon: <AiFillPhone className='text-lg' /> },
-    { link: '/', icon: <HiOutlineMail className='text-lg' /> },
-    { link: '/', icon: <FaFacebookF className='text-lg' /> },
-    { link: '/', icon: <FaInstagram className='text-lg' /> },
+    { link: 'tel:+49 151 15563069', icon: <AiFillPhone className='text-lg' /> },
+    { link: 'mailto:kryptostreber@hotmail.com', icon: <HiOutlineMail className='text-lg' /> },
+    { link: 'https://vm.tiktok.com/ZMNCACgnU', icon: <FaTiktok className='text-lg' /> },
+    { link: 'https://www.instagram.com/kryptostreber/', icon: <FaInstagram className='text-lg' /> },
 ]
 
 
