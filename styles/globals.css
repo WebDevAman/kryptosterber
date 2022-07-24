@@ -1,3 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+:root {
+    --theme: #241F21
+}
+
+@layer components {
+    .container {
+        @apply w-full font-raleway max-w-[80rem] mx-auto px-4 overflow-hidden !important
+    }
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: #FFFFFF !important;
+    padding: 25px !important;
+    border: 1px solid var(--theme);
+}
+
+
+.swiper-button-next {
+    right: 4px !important;
+}
+
+.swiper-button-prev {
+    left: 4px !important;
+}
+
+.swiper-hero .swiper-button-prev::after,
+.swiper-hero .swiper-button-next::after {
+    color: var(--theme) !important;
+    font-size: 20px !important;
+}
+
+
+
+.link {
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color: var(--theme);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s;
+    transition-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
+}
+
+.link:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+
+.swiper-gallery .swiper-button-prev::after,
+.swiper-gallery .swiper-button-next::after {
+    color: var(--theme) !important;
+    font-size: 20px !important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.spinner {
+    display: inline-block;
+    position: relative;
+    width: 17px;
+    height: 17px;
+}
+
+.spinner div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+.spinner div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.spinner div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.spinner div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.MuiDialog-paper {
+    margin: 30px !important;
+}
+
+.MuiPaper-root {
+    background-color: #161314 !important;
+}
+
+@media (max-width:800px) {
+
+    .MuiDialog-paper {
+        margin: 5px !important;
+    }
+}
+
+.gradient-text {
+    background-color: #1a0d78;
+    background-image: linear-gradient(160deg, #f6f8ff, #eed9a7 89%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.custom-blur {
+    backdrop-filter: brightness(70%) blur(16px);
+    background-color: rgba(3, 6, 17, 0);
+}
