@@ -40,14 +40,15 @@ export const serviceData = [
         chips: ['Starter Package']
     },
     {
-        heading: " Dein Experte-Paket",
-        imageUrl: '/images/services-2.png',
-        chips: ['Expert Package']
-    },
-    {
         heading: " Dein Erweitertes-Paket",
         imageUrl: '/images/services-3.png',
         chips: ['Extension Package']
 
     },
+    {
+        heading: " Dein Experte-Paket",
+        imageUrl: '/images/services-2.png',
+        chips: ['Expert Package']
+    },
+
 ]

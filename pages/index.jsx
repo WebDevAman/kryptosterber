@@ -8,8 +8,7 @@ const Home = () => {
   return (
     <div className='flex flex-col'>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Kryptosterber</title>
       </Head>
       <section>
         <Hero />
