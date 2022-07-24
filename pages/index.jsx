@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='flex flex-col'>
       <Head>
-        <title>Kryptosterber</title>
+        <title>Kryptostreber</title>
       </Head>
       <section>
         <Hero />
