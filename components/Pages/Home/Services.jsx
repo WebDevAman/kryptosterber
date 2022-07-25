@@ -16,11 +16,9 @@ const Services = () => {
                             <div className="p-5 flex flex-col space-y-2">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{heading}</h5>
                                 <div className="flex space-x-4">
-                                    {chips.map(chip => (
-                                        <a href='https://wa.me/+4915115563069' key={chip}>
-                                            <Button text={chip} />
-                                        </a>
-                                    ))}
+                                    <a href='https://wa.me/+4915115563069' >
+                                        <Button text={heading} />
+                                    </a>
                                 </div>
 
                             </div>
