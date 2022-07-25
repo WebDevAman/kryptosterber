@@ -18,8 +18,8 @@ const index = () => {
                         ))}
                     </div>
                 </div>
-                <div className="border-t border-themeGold pt-8 text-center md:text-left text-themeGold text-lg">
-                    copyright &copy; 2022 | All rights are reserved
+                <div className="border-t font-sans border-themeGold pt-8 text-center md:text-left text-themeGold text-lg">
+                    Copyright &copy; 2022 | 06464 Frose, OT Seeland, vor dem Bahnhof 282 A
                 </div>
             </div>
         </div>
