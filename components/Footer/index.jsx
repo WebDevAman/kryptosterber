@@ -8,8 +8,8 @@ const index = () => {
         <div className='bg-themeColor flex flex-col py-6 md:py-12'>
             <div className="flex flex-col container space-y-6 md:space-y-12">
                 <div className="flex items-center flex-col md:flex-row justify-between">
-                    <div className="flex flex-col selection:">
-                        <div className="max-h-[4rem] mx-auto md:mr-auto">
+                    <div className="flex flex-col">
+                        <div className="max-h-[4rem] mx-auto md:mx-0">
                             <Logo />
                         </div>
                         <p className='max-w-[16rem] text-center md:text-left font-semibold text-lg pt-8 text-themeGold'>06464 Frose, OT Seeland, vor dem Bahnhof 282 A</p>
