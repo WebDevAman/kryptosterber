@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <div className='flex container flex-col space-y-6'>
             <Title text={'Unsere Leistungen'} />
-            <div className="text-center text-gray-100 max-w-[30rem] mx-auto">Unsere exklusiven Services, die Ihnen helfen, Kryptowährungen zu meistern.</div>
+            <div className="text-center text-gray-100 max-w-[30rem] mx-auto">Mein exklusiver Service, der dir hilft, Kryptowährungen zu verstehen und zu meistern.</div>
             <div className="flex justify-center">
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {serviceData.map(({ imageUrl, heading, chips }) => (

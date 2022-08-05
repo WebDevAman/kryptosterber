@@ -34,19 +34,6 @@ const NavDrawer = ({ open, setOpen }) => {
                                 </li>
                             </div>
                         ))}
-                        <div
-                            data-aos="fade-right"
-                            data-aos-duration="800"
-                            data-aos-delay={`500`}
-                            className='flex flex-col border-b border-themeGold '>
-                            <li className='flex items-center cursor-pointer px-4 hover:pr-2 py-4 '>
-                                <Link href='#contact'>
-                                    <a className='text-base font-ubuntu uppercase  font-semibold text-lightBlack hover:text-violet hover:underline'>
-                                        Contact Us
-                                    </a>
-                                </Link>
-                            </li>
-                        </div>
                     </ul>
                 </div>
             </Drawer>

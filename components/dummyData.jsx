@@ -41,13 +41,13 @@ export const serviceData = [
     },
     {
         heading: " Dein Erweitertes-Paket",
-        imageUrl: '/images/services-3.png',
+        imageUrl: '/images/services-2.png',
         chips: ['Extension Package']
 
     },
     {
         heading: " Dein Experte-Paket",
-        imageUrl: '/images/services-2.png',
+        imageUrl: '/images/services-3.png',
         chips: ['Expert Package']
     },
 

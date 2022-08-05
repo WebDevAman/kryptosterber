@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import Logo from '../common/Logo'
 import { socialData } from '../dummyData'
@@ -7,8 +8,11 @@ const index = () => {
         <div className='bg-themeColor flex flex-col py-6 md:py-12'>
             <div className="flex flex-col container space-y-6 md:space-y-12">
                 <div className="flex items-center flex-col md:flex-row justify-between">
-                    <div className="max-h-[4rem]">
-                        <Logo />
+                    <div className="flex flex-col selection:">
+                        <div className="max-h-[4rem] mx-auto md:mr-auto">
+                            <Logo />
+                        </div>
+                        <p className='max-w-[16rem] text-center md:text-left font-semibold text-lg pt-8 text-themeGold'>06464 Frose, OT Seeland, vor dem Bahnhof 282 A</p>
                     </div>
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         {socialData.map(({ icon, link }, i) => (
@@ -19,7 +23,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="border-t font-sans border-themeGold pt-8 text-center md:text-left text-themeGold text-lg">
-                    Copyright &copy; 2022 | 06464 Frose, OT Seeland, vor dem Bahnhof 282 A
+                    Copyright &copy; 2022 | <a href='https://www.kryptostreber.com' target='_blank' rel='noreferrer'>Kryptostreber.com</a>
                 </div>
             </div>
         </div>
